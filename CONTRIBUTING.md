@@ -9,6 +9,7 @@ _As contributors and maintainers of this project, and in the interest of fosteri
 Dev guides:
 
 - [Mac](docs/macDevGuide.md)
+- [Containers](docs/containerDevGuide.md)
 
 We have full documentation on how to get started contributing here:
 
