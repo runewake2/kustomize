@@ -1,0 +1,14 @@
+{
+  "name": "multi-module-action",
+  "version": "1.0.0",
+  "description": "Detect and flag pull requests to multiple module directories",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "dependencies": {
+    "@actions/core": "^1.2.5",
+    "@actions/github": "^4.0.0"
+  }
+}
