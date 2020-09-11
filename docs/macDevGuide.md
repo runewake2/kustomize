@@ -39,3 +39,13 @@ make
 ```
 
 Be default, this runs all tests needed to qualify a pull request.
+
+## Changes Spanning Go Modules
+
+Changes should ideally target a single Go module. If you intend to change multiple Modules you may flag your Pull Request by adding "IGNORE_MODULE_SPANS" on a line by itself your your Pull Requests description.
+
+ex:
+
+> The Pull requests description...
+>
+> IGNORE_MODULE_SPANS
