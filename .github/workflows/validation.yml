@@ -14,4 +14,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Multi-Module Validation
-        users: ./.github/actions/multi-module-action
+        uses: ./.github/actions/multi-module-action
