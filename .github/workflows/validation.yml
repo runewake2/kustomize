@@ -1,0 +1,17 @@
+name: Change Validation
+
+on:
+  pull_request:
+    branches: [ master, multi-module-check ]
+
+jobs:
+  multi-module-pr:
+    name: Limit Multi-Module Pull Requests
+    runs-on: [ubuntu-latest]
+    steps:
+
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Multi-Module Validation
+        users: ./.github/actions/multi-module-action

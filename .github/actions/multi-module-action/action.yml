@@ -1,0 +1,10 @@
+name: 'Multi-Module Change Check'
+description: 'Restricts a pull-request to prevent modification to multiple directories'
+inputs:
+  restricted-directories: 
+    description: 'comma-delimited directory list (ex: "cmd/config,api/")'
+    required: true
+    default: ''
+runs:
+  using: 'node12'
+  main: 'index.js'
